@@ -10,13 +10,14 @@ using bene_hack_api.Models;
 
 namespace bene_hack_api.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("/user")]
     [ApiController]
     public class UserController : Controller
     {
         // 初期値
         private List<User> users = new List<User>()
         {
+            new User(){id=0,username="a",password=1234},
             new User(){id=1,username="大槻翼",password=12341234},
             new User(){id=2,username="テスト太郎",password=0}
         };

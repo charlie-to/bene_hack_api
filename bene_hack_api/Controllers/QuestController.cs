@@ -10,7 +10,7 @@ using bene_hack_api.Models;
 
 namespace bene_hack_api.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("/quest")]
     [ApiController]
     public class QuestController : Controller
     {
