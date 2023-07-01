@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1705.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bene_hack_api", "bene_hack_api\bene_hack_api.csproj", "{A25D06EC-BE8D-4884-BF3F-A9AAE82E0C32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A25D06EC-BE8D-4884-BF3F-A9AAE82E0C32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A25D06EC-BE8D-4884-BF3F-A9AAE82E0C32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A25D06EC-BE8D-4884-BF3F-A9AAE82E0C32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A25D06EC-BE8D-4884-BF3F-A9AAE82E0C32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B669D297-D507-4E45-8F9C-97D01CE830CB}
+	EndGlobalSection
+EndGlobal
