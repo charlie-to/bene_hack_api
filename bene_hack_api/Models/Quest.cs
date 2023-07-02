@@ -6,7 +6,6 @@ namespace bene_hack_api.Models
         public int id { get; set; }
         public string? name { get; set; }
         public DateTime deadline { get; set; }
-        public bool isFinished { get; set; }
     }
 }
 

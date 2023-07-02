@@ -18,8 +18,10 @@ namespace bene_hack_api.Controllers
         private List<User> users = new List<User>()
         {
             new User(){id=0,username="a",password=1234},
-            new User(){id=1,username="大槻翼",password=12341234},
-            new User(){id=2,username="テスト太郎",password=0}
+            new User(){id=1,username="大槻翼",password=1234},
+            new User(){id=2,username="田中健太郎",password=1234},
+            new User(){id=3,username="谷サン",password=1234},
+            new User(){id=4,username="岡村穂香",password=1234}
         };
 
         // GET: api/values

@@ -8,6 +8,8 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddDbContext<QuestContext>(opt =>
     opt.UseInMemoryDatabase("Quest"));
+builder.Services.AddDbContext<QuestStatusContext>(opt =>
+    opt.UseInMemoryDatabase("QuestStatus"));
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
