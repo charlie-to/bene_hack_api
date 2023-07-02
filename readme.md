@@ -1,6 +1,7 @@
 # 概要
 ハッカソングループ１０で使用するAPIです。
 現在はAzure Web App にてホストしています。
+
 公開URL：https://bene-hack-api.azurewebsites.net/api/Use
 
 # 提供機能
