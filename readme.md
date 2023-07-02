@@ -25,7 +25,7 @@ https://bene-hack-api.azurewebsites.net/quest
 へGETでアクセスするとタスクデータを取得できます。
 
 ## タスクを追加する
-https://bene-hack-api.azurewebsites.net/quest
+https://bene-hack-api.azurewebsites.net/quest/
 
 へPOSTでアクセスするとタスクを追加できます。
 ↓こんな感じです。
