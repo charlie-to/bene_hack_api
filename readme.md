@@ -1,8 +1,12 @@
 # 概要
-ハッカソングループ１０で使用するAPIです。
+ハッカソンのグループ１０で作成したアプリ内で使用するバックエンド用APIです。  
 現在はAzure Web App にてホストしています。
 
 公開URL：https://bene-hack-api.azurewebsites.net/
+
+簡易的なDBを実装し、REST APIとして作成しました。  
+指定したURLにアクセスすることでDB内のデータにアクセスできます。
+
 
 # 提供機能
 - ユーザーデータ（ダミーデータ）の取得
@@ -21,11 +25,24 @@ https://bene-hack-api.azurewebsites.net/user
 
 へGETでアクセスするとユーザーデータを取得できます。
 
+例
+```
+curl -X 'GET' \
+          'https://bene-hack-api.azurewebsites.net/user/' \
+          -H 'accept: text/plain'
+```
+
 ## タスクを取得する
 https://bene-hack-api.azurewebsites.net/quest
 
-へGETでアクセスするとタスクデータを取得できます。
+へGETでアクセスすると進行中のクエストを取得できます。
 
+例
+```
+curl -X 'GET' \
+          'https://bene-hack-api.azurewebsites.net/quest/' \
+          -H 'accept: text/plain'
+```
 ## タスクを追加する
 https://bene-hack-api.azurewebsites.net/quest/
 
